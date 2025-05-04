@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Human {
 
     @Autowired   // This will inject the Gorillas bean into this class
-    private Gorillas gorillas;
+    Gorillas gorillas;
 
     public void canWin() {
         gorillas.compile();
