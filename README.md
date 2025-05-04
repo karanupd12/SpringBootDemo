@@ -15,7 +15,6 @@ This is a simple Spring Boot application demonstrating dependency injection and 
 - In short,  The Human class is marked as a Spring component, and the Gorillas dependency is injected using @Autowired. When the application runs, the Human bean retrieves the Gorillas bean and calls its compile method.
 
 ## Code Example
-### Main Application
 ```java
 @SpringBootApplication
 public class SpringBootDemoApplication {
